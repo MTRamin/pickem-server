@@ -1,0 +1,39 @@
+{
+  "name": "pickem",
+  "description": "NFL PickEm Server",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "4.4.3",
+    "jwt-simple": "0.2.0",
+    "passport": "*",
+    "passport-local": "*",
+    "passport-localapikey": "*",
+    "body-parser": "*",
+    "bcrypt-nodejs": "*",
+    "chai": "*",
+    "mocha": "*",
+    "async": "*",
+    "moment": "*",
+    "moment-timezone": "*",
+    "xml2js": "*",
+    "mongodb": "*",
+    "node-logentries": "*"
+  },
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "mocha": "^1.20.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://Mauin@bitbucket.org/Mauin/nfl-pickem-server.git"
+  },
+  "author": "mauin",
+  "license": "ISC"
+}
